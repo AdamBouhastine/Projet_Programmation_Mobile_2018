@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Formule 1</string>
+    <string name="results">Résultats </string>
+    <string name="calendar">Calendrier</string>
+    <string name="teams">Ecuries</string>
+    <string name="drivers">Pilotes</string>
+    <string name="downloads">Téléchargements</string>
+    <string name="races">Courses</string>
+    <string name="standings_drivers_2018">Classement des pilotes 2018</string>
+    <string name="standings_drivers_2017">Classement des pilotes 2017 </string>
+    <string name="standings_drivers_2016">Classement des pilotes 2016 </string>
+    <string name="standings_drivers_2015">Classement des pilotes 2015 </string>
+    <string name="standings_drivers_2014">Classement des pilotes 2014 </string>
+    <string name="standings_drivers_2013">Classement des pilotes 2013 </string>
+    <string name="position">Pos</string>
+    <string name="nationality">Nationalité</string>
+    <string name="car">Écurie</string>
+    <string name="points">Points</string>
+    <string name="team">Écurie</string>
+    <string name="country">Pays </string>
+    <string name="podiums"> Podiums </string>
+    <string name="gp_entered">Grand prix engagé</string>
+    <string name="world_chmapionships">Champion du Monde </string>
+    <string name="standings_teams_2018">Classement des équipes 2018</string>
+    <string name="standings_teams_2017">Classement des équipes 2017 </string>
+    <string name="standings_teams_2016">Classement des équipes 2016 </string>
+    <string name="standings_teams_2015">Classement des équipes 2015 </string>
+    <string name="standings_teams_2014">Classement des équipes 2014 </string>
+    <string name="standings_teams_2013">Classement des équipes 2013 </string>
+    <string name="wins">Wins</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="onclickquit">Au revoir !</string>
+    <string name="onclicknotquit">Vous avez fait le bon choix !</string>
+    <string name="quit">Voulez vous vraiment quitter ?</string>
+    <string name="download_picture">Télécharger l\'image</string>
+    <string name="schedule">Calendrier </string>
+    <string name="toastteams">Cliquez sur la voiture pour la voir dans son intégralité</string>
+    <string name="toastschedule">Cliquez pour voir l\'emplacement du circuit</string>
+</resources>

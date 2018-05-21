@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_res_d_position"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/rv_res_d_drivers"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Title"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/rv_res_d_nationality"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:id="@+id/rv_res_d_car"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/rv_res_d_points"
+        ></TextView>
+</RelativeLayout>

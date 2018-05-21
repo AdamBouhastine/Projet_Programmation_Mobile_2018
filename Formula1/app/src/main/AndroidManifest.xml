@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.avenflar.formula1">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/ThemeFormula1"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+       >
+        <activity android:name=".com.example.formula1.Activites.activity_home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".com.example.formula1.Activites.TeamsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".com.example.formula1.Activites.ScheduleActivity"/>
+        <activity android:name=".com.example.formula1.Activites.DriversActivity"/>
+        <activity android:name=".com.example.formula1.Activites.DownloadsActivity"/>
+        <activity android:name=".com.example.formula1.Activites.ResultsActivity"/>
+
+
+        <service
+            android:name=".com.example.formula1.RecyclerView.GetServices.DriversServices.GetResultsDriversServices"
+            android:exported="false"></service>
+        <service
+            android:name=".com.example.formula1.RecyclerView.GetServices.GetScheduleServices"
+            android:exported="false"></service>
+        <service
+            android:name=".com.example.formula1.RecyclerView.GetServices.GetDriversServices"
+            android:exported="false"></service>
+
+
+        <service
+            android:name=".com.example.formula1.RecyclerView.GetServices.DriversServices.GetResultsDriversServices2017"
+            android:exported="false"></service>
+        <service
+            android:name=".com.example.formula1.RecyclerView.GetServices.DriversServices.GetResultsDriversServices2016"
+            android:exported="false"></service>
+        <service
+            android:name=".com.example.formula1.RecyclerView.GetServices.DriversServices.GetResultsDriversServices2015"
+            android:exported="false"></service>
+        <service
+            android:name=".com.example.formula1.RecyclerView.GetServices.DriversServices.GetResultsDriversServices2014"
+            android:exported="false"></service>
+        <service
+            android:name=".com.example.formula1.RecyclerView.GetServices.DriversServices.GetResultsDriversServices2013"
+            android:exported="false"></service>
+
+
+        <service android:name=".com.example.formula1.RecyclerView.GetServices.TeamsServices.GetResultsTeamsServices"
+            android:exported="false"></service>
+        <service android:name=".com.example.formula1.RecyclerView.GetServices.TeamsServices.GetResultsTeamsServices2017"
+            android:exported="false"></service>
+        <service android:name=".com.example.formula1.RecyclerView.GetServices.TeamsServices.GetResultsTeamsServices2016"
+            android:exported="false"></service>
+        <service android:name=".com.example.formula1.RecyclerView.GetServices.TeamsServices.GetResultsTeamsService2015"
+            android:exported="false"></service>
+        <service android:name=".com.example.formula1.RecyclerView.GetServices.TeamsServices.GetResultsTeamsServices2014"
+            android:exported="false"></service>
+        <service android:name=".com.example.formula1.RecyclerView.GetServices.TeamsServices.GetResultsTeamsServices2013"
+            android:exported="false"></service>
+
+
+        <service android:name=".com.example.formula1.RecyclerView.GetServices.GetDownloadsServices"
+            android:exported="false"></service>
+
+
+    </application>
+
+</manifest>

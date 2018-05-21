@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearlayout"
+            android:layout_marginTop="48dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018"
+                android:id="@+id/teams_2018"
+                android:textColor="@color/Primaire"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:id="@+id/teams_2017"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:background="@color/Primaire"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/teams_2016"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:background="@color/Primaire"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="2015"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/teams_2015"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:background="@color/Primaire"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="2014"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/teams_2014"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:background="@color/Primaire"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="2013"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/teams_2013"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:background="@color/Primaire"
+                />
+
+        </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/standings_teams_2018"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linearlayout"
+        android:textSize="25dp"
+        android:id="@+id/Title"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/position"
+        android:layout_below="@id/Title"
+        android:id="@+id/position"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/team"
+        android:layout_below="@id/Title"
+        android:layout_toRightOf="@id/position"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/contructor"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nationality"
+        android:layout_below="@id/Title"
+        android:layout_toRightOf="@id/contructor"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/nationality"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wins"
+        android:layout_toRightOf="@id/nationality"
+        android:layout_below="@id/Title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/wins"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/points"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/wins"
+        android:layout_below="@id/Title"
+        android:layout_marginTop="20dp"
+        android:id="@+id/points"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_results_teams"
+        android:layout_below="@id/position"
+        />
+
+
+</RelativeLayout>

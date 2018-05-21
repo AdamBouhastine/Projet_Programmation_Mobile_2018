@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="220dp"
+            android:id="@+id/rv_drivers_picture"
+           />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="205dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/rv_drivers_flag"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="220dp"
+            android:id="@+id/rv_drivers_head"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:id="@+id/rv_drivers_number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:id="@+id/rv_drivers_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/team"
+            android:layout_marginLeft="165dp"
+            android:id="@+id/teams"
+            android:layout_below="@id/rv_drivers_head"/>
+
+    <TextView
+        android:id="@+id/rv_drivers_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/rv_drivers_head" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country"
+            android:layout_marginLeft="165dp"
+            android:id="@+id/country"
+            android:layout_below="@id/teams"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teams"
+            android:layout_alignParentRight="true"
+            android:id="@+id/rv_drivers_country"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/podiums"
+        android:layout_marginLeft="165dp"
+        android:id="@+id/podiums"
+        android:layout_below="@id/country"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/country"
+        android:layout_alignParentRight="true"
+        android:id="@+id/rv_drivers_podiums"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/points"
+        android:layout_marginLeft="165dp"
+        android:id="@+id/points"
+        android:layout_below="@id/podiums"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/podiums"
+        android:layout_alignParentRight="true"
+        android:id="@+id/rv_drivers_points"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gp_entered"
+        android:layout_marginLeft="165dp"
+        android:id="@+id/gp_entered"
+        android:layout_below="@id/points"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/points"
+        android:layout_alignParentRight="true"
+        android:id="@+id/rv_drivers_gp_entered"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/world_chmapionships"
+        android:layout_marginLeft="165dp"
+        android:id="@+id/world_champ"
+        android:layout_below="@id/gp_entered"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gp_entered"
+        android:layout_alignParentRight="true"
+        android:id="@+id/rv_drivers_wc"/>
+</RelativeLayout>

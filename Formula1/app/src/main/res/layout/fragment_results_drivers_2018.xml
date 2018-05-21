@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayout2"
+        android:layout_marginTop="48dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018"
+            android:id="@+id/drivers_2018"
+            android:textColor="@color/Primaire"
+            android:background="@color/white"
+            android:textSize="20dp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:id="@+id/drivers_2017"
+            android:textSize="20dp"
+            android:background="@color/Primaire"
+            android:padding="5dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/drivers_2016"
+            android:textSize="20dp"
+            android:background="@color/Primaire"
+            android:padding="5dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="2015"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/drivers_2015"
+            android:textSize="20dp"
+            android:background="@color/Primaire"
+            android:padding="5dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="2014"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/drivers_2014"
+            android:textSize="20dp"
+            android:background="@color/Primaire"
+            android:padding="5dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="2013"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/drivers_2013"
+            android:textSize="20dp"
+            android:background="@color/Primaire"
+            android:padding="5dp"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/standings_drivers_2018"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_below="@+id/linearlayout2"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Title2"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/position"
+        android:layout_below="@id/Title2"
+        android:id="@+id/position"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drivers"
+        android:layout_below="@id/Title2"
+        android:layout_toRightOf="@id/position"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/Drivers"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nationality"
+        android:layout_below="@id/Title2"
+        android:layout_toRightOf="@id/Drivers"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/nationality"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/car"
+        android:layout_toRightOf="@id/nationality"
+        android:layout_below="@id/Title2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/car"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/points"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/car"
+        android:layout_below="@id/Title2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/points"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_data_drivers"
+        android:layout_below="@id/Drivers"
+        />
+</RelativeLayout>

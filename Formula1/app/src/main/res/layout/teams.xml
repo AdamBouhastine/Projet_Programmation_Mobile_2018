@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Frameferrari">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/ferrari_text" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/ferrari_team"
+                android:background="@drawable/ferrari_car"
+                android:layout_marginLeft="600px"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/FrameMercedes"
+            android:layout_below="@id/Frameferrari">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/mercedes_text" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/mercedes_team"
+                android:background="@drawable/mercedes_car"
+                android:layout_marginLeft="600px"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Frameredbull"
+            android:layout_below="@id/FrameMercedes">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/redbull_text" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/redbull_team"
+                android:background="@drawable/redbull_car"
+                android:layout_marginLeft="600px"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Framemclaren"
+            android:layout_below="@id/Frameredbull">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/mclaren_text" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/mclaren_team"
+                android:background="@drawable/mclaren_car"
+                android:layout_marginLeft="600px"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Framerenault"
+            android:layout_below="@id/Framemclaren">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/renault_text" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/renault_team"
+                android:background="@drawable/renault_car"
+                android:layout_marginLeft="600px"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Frameforceindia"
+            android:layout_below="@id/Framerenault">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/forceindia_text" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/forceindia_team"
+                android:background="@drawable/forceindia_car"
+                android:layout_marginLeft="600px"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Frametororosso"
+            android:layout_below="@id/Frameforceindia">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/tororosso_text" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/tororosso_team"
+                android:background="@drawable/tororosso_car"
+                android:layout_marginLeft="600px"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Framehaas"
+            android:layout_below="@id/Frametororosso">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/haas_text" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/haas_team"
+                android:background="@drawable/haas_car"
+                android:layout_marginLeft="600px"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Framesauber"
+            android:layout_below="@id/Framehaas">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/sauber_text" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/sauber_team"
+                android:background="@drawable/sauber_car"
+                android:layout_marginLeft="600px"/>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Framewilliams"
+            android:layout_below="@id/Framesauber">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/williams_text" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/williams_team"
+                android:background="@drawable/williams_car"
+                android:layout_marginLeft="600px"/>
+
+
+        </FrameLayout>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

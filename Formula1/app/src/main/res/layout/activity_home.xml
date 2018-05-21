@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.avenflar.formula1.com.example.formula1.Activites.activity_home">
+
+   <FrameLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/Layoutresult">
+      <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="105dp"
+       android:background="@drawable/flag_banner"
+          android:id="@+id/results_picutre"
+       />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:textSize="30dp"
+          android:textColor="@color/white"
+          android:text="@string/results"
+          android:id="@+id/home_results"/>
+   </FrameLayout>
+
+   <FrameLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/Layoutresult"
+       android:id="@+id/Layoutschedule">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="105dp"
+          android:background="@drawable/banner_f1"
+          android:layout_gravity="bottom"
+          android:id="@+id/schedule_image"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:textSize="30dp"
+          android:textColor="@color/white"
+          android:text="@string/calendar"
+          android:id="@+id/home_schedule"
+          />
+   </FrameLayout>
+
+   <FrameLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/Layoutschedule"
+       android:id="@+id/Layoutteams">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="105dp"
+          android:background="@drawable/teams"
+          android:layout_gravity="bottom"
+          android:id="@+id/teams_image"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:textSize="30dp"
+          android:textColor="@color/white"
+          android:text="@string/teams"
+          android:id="@+id/home_teams"
+          />
+   </FrameLayout>
+
+   <FrameLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/Layoutteams"
+       android:id="@+id/Layoutdrivers">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="105dp"
+          android:background="@drawable/drivers"
+          android:id="@+id/drivers_image"
+          android:layout_gravity="bottom"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:textSize="30dp"
+          android:textColor="@color/white"
+          android:text="@string/drivers"
+          android:id="@+id/home_drivers" />
+   </FrameLayout>
+
+   <FrameLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/Layoutdrivers"
+       android:id="@+id/Layoutdowloads">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="105dp"
+          android:background="@drawable/dowloads"
+          android:layout_gravity="bottom"
+          android:id="@+id/image_downloads"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:textSize="30dp"
+          android:textColor="@color/white"
+          android:text="@string/downloads"
+          android:id="@+id/home_downloads"
+          />
+   </FrameLayout>
+
+
+</RelativeLayout>
